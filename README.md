@@ -2,6 +2,10 @@
 
 This repository contains the Infrastructure-as-Code (Terraform), Application Deployment (Helm), and Frontend UI for the AI Inference Platform.
 
+## 🚀 Live Demo
+**URL:** [http://35.227.82.49](http://35.227.82.49)
+*(Note: If the link is unreachable, the demo cluster may have been paused to save costs.)*
+
 ## Architecture
 
 ```mermaid
