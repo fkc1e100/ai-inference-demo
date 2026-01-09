@@ -1,0 +1,29 @@
+# Golden Path Configuration for Gemma 3 on GKE
+image:
+  repository: us-docker.pkg.dev/cloudrun/container/gemma/gemma3-4b
+  tag: latest
+  pullPolicy: IfNotPresent
+
+resources:
+  limits:
+    nvidia.com/gpu: 1
+  requests:
+    cpu: "8" 
+    memory: "16Gi"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+env:
+  OLLAMA_HOST: "0.0.0.0:8000"
+  OLLAMA_KEEP_ALIVE: "-1"
+  OLLAMA_MAX_LOADED_MODELS: "1"
+
+nodeSelector:
+  cloud.google.com/gke-accelerator: nvidia-l4
+
+tolerations:
+- key: "nvidia.com/gpu"
+  operator: "Exists"
+  effect: "NoSchedule"
