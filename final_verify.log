@@ -1,0 +1,12 @@
+Starting Sustained Load Test
+Target: http://34.139.212.96:8000/api/generate, Model: gemma3:4b
+maintaining 50 concurrent users for 10 seconds...
+Elapsed: 0s / 10s - Requests: 90 Ok, 0 Error
+Elapsed: 5s / 10s - Requests: 243 Ok, 0 Error
+
+Test Complete. Total Requests: 339
+Stats:
+  Average: 0.6021s
+  Median:  0.5778s
+  Min:     0.3688s
+  Max:     1.8249s

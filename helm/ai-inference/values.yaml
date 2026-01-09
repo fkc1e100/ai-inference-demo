@@ -20,7 +20,7 @@ env:
   OLLAMA_HOST: "0.0.0.0:8000"
   OLLAMA_KEEP_ALIVE: "-1"
   OLLAMA_MAX_LOADED_MODELS: "1"
-  OLLAMA_NUM_PARALLEL: "8"
+  OLLAMA_NUM_PARALLEL: "4"
 
 nodeSelector:
   cloud.google.com/gke-accelerator: nvidia-l4
@@ -36,7 +36,7 @@ tolerations:
 
 autoscaling:
   enabled: true
-  minReplicas: 10
+  minReplicas: 1
   maxReplicas: 10
   # Aggressive scaling: Trigger scale-up at 40% CPU
   targetCPUUtilizationPercentage: 40

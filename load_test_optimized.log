@@ -1,0 +1,3 @@
+Starting Sustained Load Test
+Target: http://34.139.212.96:8000/api/generate, Model: gemma3:4b
+maintaining 50 concurrent users for 60 seconds...

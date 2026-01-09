@@ -1,0 +1,3264 @@
+[
+  {
+    "timestamp": 1767995920.8929985,
+    "duration": 3.6411333084106445,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.7986393,
+    "duration": 2.780827760696411,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.7048528,
+    "duration": 1.8750524520874023,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.6042154,
+    "duration": 1.9757344722747803,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995920.7922063,
+    "duration": 3.792790412902832,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.7150877,
+    "duration": 0.9271712303161621,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.5973523,
+    "duration": 3.0622658729553223,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.8055668,
+    "duration": 1.8544180393218994,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.0001361,
+    "duration": 2.7519290447235107,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.194883,
+    "duration": 3.5705068111419678,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995920.993692,
+    "duration": 3.817422389984131,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.3960996,
+    "duration": 3.4152300357818604,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.0942812,
+    "duration": 3.770197629928589,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.4028451,
+    "duration": 2.471402883529663,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.5137775,
+    "duration": 1.3815853595733643,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.1178274,
+    "duration": 0.7787280082702637,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.9063017,
+    "duration": 2.1484673023223877,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.0073118,
+    "duration": 2.0485503673553467,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.6144125,
+    "duration": 1.442795753479004,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.8994265,
+    "duration": 3.1668739318847656,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.3191829,
+    "duration": 0.7476487159729004,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.2954538,
+    "duration": 3.771411418914795,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.3021507,
+    "duration": 2.771681547164917,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.91644,
+    "duration": 1.268545389175415,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.496718,
+    "duration": 3.6954567432403564,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.017184,
+    "duration": 1.1751606464385986,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.1007636,
+    "duration": 3.1043012142181396,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.218609,
+    "duration": 1.016040325164795,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.7216294,
+    "duration": 0.6271603107452393,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995921.6980162,
+    "duration": 3.7205779552459717,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.1080084,
+    "duration": 2.325787305831909,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.5035958,
+    "duration": 2.9322359561920166,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995922.201419,
+    "duration": 3.28597092628479,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.4131134,
+    "duration": 2.520674705505371,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.309317,
+    "duration": 2.6429026126861572,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.2086387,
+    "duration": 2.7625739574432373,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.5203578,
+    "duration": 1.4994938373565674,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.5801346,
+    "duration": 0.47457242012023926,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.5803573,
+    "duration": 0.5814480781555176,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.6425316,
+    "duration": 0.6081316471099854,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.6601896,
+    "duration": 0.6274600028991699,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.7655938,
+    "duration": 0.5952527523040771,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.7522852,
+    "duration": 0.6132304668426514,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.5343456,
+    "duration": 0.8324503898620605,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8115156,
+    "duration": 0.6042437553405762,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.6209903,
+    "duration": 1.8438138961791992,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.5796669,
+    "duration": 0.8879246711730957,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8744478,
+    "duration": 0.6084556579589844,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0574489,
+    "duration": 0.4670841693878174,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0739794,
+    "duration": 0.4733755588531494,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0665083,
+    "duration": 0.48447585105895996,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.5852005,
+    "duration": 1.0047814846038818,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0549695,
+    "duration": 0.6248762607574463,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0672266,
+    "duration": 0.6164512634277344,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.1923418,
+    "duration": 0.5557262897491455,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.2348783,
+    "duration": 0.5203762054443359,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.2052317,
+    "duration": 0.6436519622802734,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.4187768,
+    "duration": 0.48560500144958496,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.3490157,
+    "duration": 0.6674604415893555,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.487586,
+    "duration": 0.5316002368927002,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.4340417,
+    "duration": 0.6410684585571289,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.4360578,
+    "duration": 0.6609270572662354,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.9340162,
+    "duration": 0.5029177665710449,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.952447,
+    "duration": 0.5110106468200684,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.9714303,
+    "duration": 0.5169816017150879,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.0201106,
+    "duration": 0.47870922088623047,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995923.8157606,
+    "duration": 3.7467992305755615,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8956025,
+    "duration": 1.6675419807434082,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.0560212,
+    "duration": 1.517780065536499,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.192547,
+    "duration": 1.4023540019989014,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.2878733,
+    "duration": 0.5076391696929932,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.2508643,
+    "duration": 0.5588479042053223,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.3610535,
+    "duration": 0.4883401393890381,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.3656821,
+    "duration": 0.4962770938873291,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.4159672,
+    "duration": 0.5003020763397217,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.0549204,
+    "duration": 0.9087066650390625,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.483066,
+    "duration": 0.5317299365997314,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.4649913,
+    "duration": 0.6051616668701172,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.5901463,
+    "duration": 0.5374464988708496,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8113275,
+    "duration": 2.340001344680786,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995924.4197261,
+    "duration": 3.746061325073242,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.5475278,
+    "duration": 0.6220262050628662,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.5511217,
+    "duration": 0.6215701103210449,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8967302,
+    "duration": 2.289853811264038,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.8647318,
+    "duration": 2.3472979068756104,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.6838863,
+    "duration": 0.5418076515197754,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.6800506,
+    "duration": 0.6411838531494141,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.7554688,
+    "duration": 0.6144700050354004,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.8490665,
+    "duration": 0.5611886978149414,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.904612,
+    "duration": 0.5454921722412109,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.0753407,
+    "duration": 0.4807305335998535,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.0194163,
+    "duration": 0.5744318962097168,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.016753,
+    "duration": 0.5980708599090576,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.1620045,
+    "duration": 1.5009167194366455,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.066985,
+    "duration": 2.6170713901519775,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.5247378,
+    "duration": 1.225403070449829,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.0971837,
+    "duration": 0.6538147926330566,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.43714,
+    "duration": 0.5145254135131836,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.499006,
+    "duration": 0.4597928524017334,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.4636483,
+    "duration": 0.5656237602233887,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.4887025,
+    "duration": 0.5616827011108398,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.5740144,
+    "duration": 0.5396926403045654,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.5632892,
+    "duration": 0.5757162570953369,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.7957008,
+    "duration": 0.5282676219940186,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.3670015,
+    "duration": 1.9639253616333008,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.8621597,
+    "duration": 0.46988344192504883,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995926.1851897,
+    "duration": 3.232168436050415,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995925.6598127,
+    "duration": 3.7579538822174072,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.8099024,
+    "duration": 0.6124677658081055,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.467739,
+    "duration": 1.9713201522827148,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.8495975,
+    "duration": 0.592498779296875,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.9164681,
+    "duration": 0.5543212890625,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.9638045,
+    "duration": 0.5611951351165771,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.0703735,
+    "duration": 0.49004554748535156,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.0151536,
+    "duration": 0.55049729347229,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.1515174,
+    "duration": 0.46687841415405273,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.1697521,
+    "duration": 0.4808204174041748,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.127814,
+    "duration": 0.5611128807067871,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.186775,
+    "duration": 0.5324864387512207,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.212245,
+    "duration": 0.5339498519897461,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.1728306,
+    "duration": 0.5835530757904053,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.2258782,
+    "duration": 0.5540924072265625,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.1660457,
+    "duration": 0.6167545318603516,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.3214633,
+    "duration": 0.5270192623138428,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995927.7483046,
+    "duration": 2.103118658065796,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.5951204,
+    "duration": 1.2930340766906738,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995928.5627444,
+    "duration": 1.3625564575195312,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.3701138,
+    "duration": 0.6152780055999756,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.5562816,
+    "duration": 0.480257511138916,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.410523,
+    "duration": 0.6331779956817627,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.4502764,
+    "duration": 0.6281554698944092,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.6150088,
+    "duration": 0.4943268299102783,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.594062,
+    "duration": 0.5407707691192627,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.7511508,
+    "duration": 0.5057802200317383,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.663131,
+    "duration": 0.5990145206451416,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.6842542,
+    "duration": 0.5835816860198975,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.750312,
+    "duration": 0.5611488819122314,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.9518507,
+    "duration": 0.586491584777832,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995929.959022,
+    "duration": 0.5978705883026123,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.0506053,
+    "duration": 0.5213897228240967,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.0294979,
+    "duration": 0.5731325149536133,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.1139336,
+    "duration": 0.5023894309997559,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.1391926,
+    "duration": 0.5024232864379883,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.3321912,
+    "duration": 0.4738624095916748,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.331156,
+    "duration": 0.4760701656341553,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.324141,
+    "duration": 0.5142481327056885,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4179745,
+    "duration": 0.5065524578094482,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4225657,
+    "duration": 0.5401952266693115,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4422681,
+    "duration": 0.6005876064300537,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.5252006,
+    "duration": 0.5253360271453857,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4392314,
+    "duration": 0.6768813133239746,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.5658178,
+    "duration": 0.5568008422851562,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.560608,
+    "duration": 0.5694980621337891,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4175718,
+    "duration": 0.7182252407073975,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.4709737,
+    "duration": 0.7386143207550049,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.7829807,
+    "duration": 0.4713156223297119,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.650796,
+    "duration": 0.6246893405914307,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.618576,
+    "duration": 0.6830587387084961,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.7565346,
+    "duration": 0.5573046207427979,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.719433,
+    "duration": 0.6212868690490723,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.8486755,
+    "duration": 0.4968230724334717,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.7801826,
+    "duration": 0.5860793590545654,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.851564,
+    "duration": 0.517056941986084,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.689189,
+    "duration": 0.7335278987884521,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.8883705,
+    "duration": 0.6017992496490479,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.9254773,
+    "duration": 0.5657355785369873,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.7464159,
+    "duration": 0.8323545455932617,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.0786304,
+    "duration": 0.5151441097259521,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995930.9855711,
+    "duration": 0.687859296798706,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.1095,
+    "duration": 0.5862712860107422,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.0367467,
+    "duration": 0.6912150382995605,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.04393,
+    "duration": 0.6852030754089355,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.2570906,
+    "duration": 0.49415135383605957,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.134988,
+    "duration": 0.6388652324676514,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.2622902,
+    "duration": 0.5244400501251221,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.267971,
+    "duration": 0.593867301940918,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.3117092,
+    "duration": 0.6035706996917725,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.5386055,
+    "duration": 0.5140366554260254,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.5721486,
+    "duration": 0.5069522857666016,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.602818,
+    "duration": 0.5008583068847656,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.5571094,
+    "duration": 0.5604393482208252,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.61651,
+    "duration": 0.5316250324249268,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.6418033,
+    "duration": 0.5874388217926025,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.8385873,
+    "duration": 0.5631792545318604,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.80626,
+    "duration": 0.5959534645080566,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.924708,
+    "duration": 0.573789119720459,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.8073804,
+    "duration": 0.724541187286377,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995931.96297,
+    "duration": 0.6110324859619141,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.1227717,
+    "duration": 0.46271657943725586,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.0430462,
+    "duration": 0.5482673645019531,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.0507057,
+    "duration": 0.5792684555053711,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.1163273,
+    "duration": 0.5975868701934814,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.1359985,
+    "duration": 0.5835568904876709,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.1303027,
+    "duration": 0.6180648803710938,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.209789,
+    "duration": 0.5724537372589111,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3140845,
+    "duration": 0.5437576770782471,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.2545638,
+    "duration": 0.6269757747650146,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3687847,
+    "duration": 0.5127806663513184,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3457298,
+    "duration": 0.5458190441131592,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.2756953,
+    "duration": 0.6229519844055176,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3018389,
+    "duration": 0.6182787418365479,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3665314,
+    "duration": 0.5659723281860352,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.3409386,
+    "duration": 0.6299483776092529,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.422916,
+    "duration": 0.5617039203643799,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.4914527,
+    "duration": 0.5513832569122314,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.5789683,
+    "duration": 0.5278728008270264,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.5939393,
+    "duration": 0.5732994079589844,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.49039,
+    "duration": 0.6832115650177002,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.6737032,
+    "duration": 0.5845921039581299,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.7281642,
+    "duration": 0.5505268573760986,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.7870018,
+    "duration": 0.5197596549987793,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.7740889,
+    "duration": 0.5556249618530273,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.6960125,
+    "duration": 0.7249629497528076,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.7514076,
+    "duration": 0.720003604888916,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.729304,
+    "duration": 0.7598974704742432,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.915487,
+    "duration": 0.584458589553833,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.0792894,
+    "duration": 0.46523118019104004,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.0528672,
+    "duration": 0.5207815170288086,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.117704,
+    "duration": 0.46392035484313965,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.148363,
+    "duration": 0.49103593826293945,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995932.8620422,
+    "duration": 0.8219387531280518,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.103863,
+    "duration": 0.5872464179992676,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.229435,
+    "duration": 0.5378983020782471,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.401981,
+    "duration": 0.5960702896118164,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.4986804,
+    "duration": 0.5167968273162842,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.40241,
+    "duration": 0.6151611804962158,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.5857477,
+    "duration": 0.49927186965942383,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.5915093,
+    "duration": 0.5657162666320801,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.574267,
+    "duration": 0.6082980632781982,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.6301782,
+    "duration": 0.5581648349761963,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.7197473,
+    "duration": 0.5024104118347168,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.5321083,
+    "duration": 0.740058183670044,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.7825072,
+    "duration": 0.5699660778045654,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.7141316,
+    "duration": 0.6567668914794922,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.8819506,
+    "duration": 0.4985191822052002,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.8988466,
+    "duration": 0.5013771057128906,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.7485714,
+    "duration": 0.6606669425964355,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.8580496,
+    "duration": 0.565988302230835,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.9203076,
+    "duration": 0.5139346122741699,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.9327235,
+    "duration": 0.5246210098266602,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.8817623,
+    "duration": 0.6077463626861572,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.8917608,
+    "duration": 0.623518705368042,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.984806,
+    "duration": 0.556373119354248,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995933.9710581,
+    "duration": 0.6102633476257324,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.1070242,
+    "duration": 0.4933621883392334,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.0430326,
+    "duration": 0.5826115608215332,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.173764,
+    "duration": 0.549565315246582,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.1674576,
+    "duration": 0.5904600620269775,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.307009,
+    "duration": 0.46730518341064453,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.25852,
+    "duration": 0.5482828617095947,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.278848,
+    "duration": 0.5874676704406738,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.3299181,
+    "duration": 0.5500357151031494,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.421179,
+    "duration": 0.5450267791748047,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.4893777,
+    "duration": 0.5169830322265625,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.5001578,
+    "duration": 0.5299370288848877,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.4716039,
+    "duration": 0.6058602333068848,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.6396003,
+    "duration": 0.46857166290283203,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.5817518,
+    "duration": 0.5695931911468506,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.5447168,
+    "duration": 0.6204824447631836,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.5738335,
+    "duration": 0.6252007484436035,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.6841886,
+    "duration": 0.5336439609527588,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.6912684,
+    "duration": 0.5592236518859863,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.7675197,
+    "duration": 0.5088286399841309,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.0158126,
+    "duration": 0.529179573059082,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995934.998247,
+    "duration": 0.5476686954498291,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.0178554,
+    "duration": 0.653207540512085,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.1574078,
+    "duration": 0.5184645652770996,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.1885529,
+    "duration": 0.49642276763916016,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.182822,
+    "duration": 0.5485861301422119,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.2223713,
+    "duration": 0.5131161212921143,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.0852222,
+    "duration": 0.6881294250488281,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.4242342,
+    "duration": 0.465242862701416,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.3806489,
+    "duration": 0.5435395240783691,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.3526669,
+    "duration": 0.5972652435302734,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.3710651,
+    "duration": 0.6096177101135254,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.4575865,
+    "duration": 0.5452620983123779,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.489741,
+    "duration": 0.5476272106170654,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.4344232,
+    "duration": 0.6187801361083984,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.409403,
+    "duration": 0.6483697891235352,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.400438,
+    "duration": 0.6766955852508545,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.5815175,
+    "duration": 0.5036087036132812,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.5154927,
+    "duration": 0.612917423248291,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.541378,
+    "duration": 0.5961947441101074,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.2723572,
+    "duration": 0.9362611770629883,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.6258414,
+    "duration": 0.60001540184021,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.6005805,
+    "duration": 0.6445121765136719,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.758096,
+    "duration": 0.5461688041687012,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.723546,
+    "duration": 0.5947797298431396,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.774508,
+    "duration": 0.561331033706665,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.8070257,
+    "duration": 0.5637149810791016,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.8665636,
+    "duration": 0.5515007972717285,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.8801801,
+    "duration": 0.5968179702758789,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995935.9664114,
+    "duration": 0.5504982471466064,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.0302868,
+    "duration": 0.5576412677764893,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.0067208,
+    "duration": 0.6393222808837891,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.1083858,
+    "duration": 0.5455710887908936,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.218019,
+    "duration": 0.4806516170501709,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.0776775,
+    "duration": 0.6464567184448242,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.1653936,
+    "duration": 0.5743680000305176,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.1515367,
+    "duration": 0.6111838817596436,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.1992104,
+    "duration": 0.5644662380218506,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.27653,
+    "duration": 0.5523433685302734,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.2506537,
+    "duration": 0.6207938194274902,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.5460722,
+    "duration": 0.47472190856933594,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.5451899,
+    "duration": 0.49689388275146484,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.685159,
+    "duration": 0.46648573875427246,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.6712677,
+    "duration": 0.6656556129455566,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.7735448,
+    "duration": 0.5723860263824463,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.676063,
+    "duration": 0.7232577800750732,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.7315862,
+    "duration": 0.7039718627929688,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.7356668,
+    "duration": 0.7008581161499023,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.889707,
+    "duration": 0.5471563339233398,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.9244165,
+    "duration": 0.5765104293823242,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.2088149,
+    "duration": 0.30034852027893066,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.057922,
+    "duration": 0.4802372455596924,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.9501274,
+    "duration": 0.5928125381469727,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995936.9808826,
+    "duration": 0.6094107627868652,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.0375705,
+    "duration": 0.59865403175354,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.085321,
+    "duration": 0.5658562183380127,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.0031624,
+    "duration": 0.653205156326294,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.0533853,
+    "duration": 0.6263391971588135,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.137728,
+    "duration": 0.576469898223877,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.0773633,
+    "duration": 0.6370165348052979,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.1286037,
+    "duration": 0.6005499362945557,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.2260692,
+    "duration": 0.6165616512298584,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.2453046,
+    "duration": 0.5984306335449219,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.304454,
+    "duration": 0.5656540393829346,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.3185163,
+    "duration": 0.5932228565216064,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.3360245,
+    "duration": 0.6351034641265869,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.3709629,
+    "duration": 0.6085646152496338,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.5171175,
+    "duration": 0.4790949821472168,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.418286,
+    "duration": 0.6217489242553711,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.588132,
+    "duration": 0.4832913875579834,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.4771876,
+    "duration": 0.6032392978668213,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.6462405,
+    "duration": 0.5370478630065918,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.698847,
+    "duration": 0.5090000629425049,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.6541674,
+    "duration": 0.5633590221405029,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.7638094,
+    "duration": 0.4862978458404541,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.7399786,
+    "duration": 0.5495126247406006,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.7629,
+    "duration": 0.5390105247497559,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.7243571,
+    "duration": 0.6074914932250977,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.829088,
+    "duration": 0.6042690277099609,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995937.8716424,
+    "duration": 0.6098570823669434,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.0210075,
+    "duration": 0.5628662109375,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.0423186,
+    "duration": 0.5474762916564941,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.1518424,
+    "duration": 0.5988402366638184,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.337141,
+    "duration": 0.5323235988616943,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.3995237,
+    "duration": 0.517629861831665,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.4370773,
+    "duration": 0.48424458503723145,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.346141,
+    "duration": 0.6076059341430664,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.501145,
+    "duration": 0.5017435550689697,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.4367545,
+    "duration": 0.615746021270752,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.5383918,
+    "duration": 0.5495717525482178,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.5904558,
+    "duration": 0.5127725601196289,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.4357545,
+    "duration": 0.682126522064209,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.679963,
+    "duration": 0.4667370319366455,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.6513517,
+    "duration": 0.5431084632873535,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.6364288,
+    "duration": 0.5705668926239014,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.5093822,
+    "duration": 0.7098743915557861,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.6566365,
+    "duration": 0.5724079608917236,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.543145,
+    "duration": 0.71146559715271,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.7144496,
+    "duration": 0.5802514553070068,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.7146919,
+    "duration": 0.6166586875915527,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.7293444,
+    "duration": 0.6029679775238037,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.8428495,
+    "duration": 0.5951976776123047,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.8439527,
+    "duration": 0.6034717559814453,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.9713368,
+    "duration": 0.4810760021209717,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.8702521,
+    "duration": 0.6268062591552734,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.9797323,
+    "duration": 0.5422484874725342,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.9119515,
+    "duration": 0.6156280040740967,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995938.9964182,
+    "duration": 0.5586850643157959,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.040257,
+    "duration": 0.6132581233978271,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.0806386,
+    "duration": 0.6231610774993896,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.071651,
+    "duration": 0.632988452911377,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.2502959,
+    "duration": 0.48114681243896484,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.1835413,
+    "duration": 0.5799045562744141,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.2177463,
+    "duration": 0.5507388114929199,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.207998,
+    "duration": 0.6268138885498047,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.3320024,
+    "duration": 0.505281925201416,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.2896945,
+    "duration": 0.5880641937255859,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.3021529,
+    "duration": 0.5761544704437256,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.4335592,
+    "duration": 0.4724385738372803,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.4816918,
+    "duration": 0.5671894550323486,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.5840788,
+    "duration": 0.5175213813781738,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.5900018,
+    "duration": 0.5803155899047852,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.7509046,
+    "duration": 0.5295145511627197,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.8696756,
+    "duration": 0.4663376808166504,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.9173336,
+    "duration": 0.47025442123413086,
+    "status": "success",
+    "user_id": 4,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.9214702,
+    "duration": 0.48459458351135254,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995939.9539323,
+    "duration": 0.5185563564300537,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.003247,
+    "duration": 0.4800591468811035,
+    "status": "success",
+    "user_id": 7,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.1034212,
+    "duration": 0.5046236515045166,
+    "status": "success",
+    "user_id": 10,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.1468885,
+    "duration": 0.5231609344482422,
+    "status": "success",
+    "user_id": 2,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.0526712,
+    "duration": 0.6207590103149414,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.1947181,
+    "duration": 0.5029828548431396,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.118113,
+    "duration": 0.5989968776702881,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.088154,
+    "duration": 0.6615076065063477,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.2072296,
+    "duration": 0.5652740001678467,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.2292323,
+    "duration": 0.5831687450408936,
+    "status": "success",
+    "user_id": 5,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.2949073,
+    "duration": 0.5314397811889648,
+    "status": "success",
+    "user_id": 0,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.332479,
+    "duration": 0.5423645973205566,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.4475813,
+    "duration": 0.5107183456420898,
+    "status": "success",
+    "user_id": 3,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.2548172,
+    "duration": 0.7275474071502686,
+    "status": "success",
+    "user_id": 6,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.4382524,
+    "duration": 0.5930159091949463,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.4972394,
+    "duration": 0.5484530925750732,
+    "status": "success",
+    "user_id": 9,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.5553477,
+    "duration": 0.5270452499389648,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.4525669,
+    "duration": 0.6334993839263916,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.2194514,
+    "duration": 0.9482908248901367,
+    "status": "success",
+    "user_id": 1,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.527772,
+    "duration": 0.6562590599060059,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.3315454,
+    "duration": 0.855341911315918,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.703972,
+    "duration": 0.4898710250854492,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.5221508,
+    "duration": 0.7027559280395508,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.6537094,
+    "duration": 0.6108214855194092,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.837446,
+    "duration": 0.5093808174133301,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.76367,
+    "duration": 0.5955076217651367,
+    "status": "success",
+    "user_id": 13,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.7316658,
+    "duration": 0.6390364170074463,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.7048767,
+    "duration": 0.6709063053131104,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.8779826,
+    "duration": 0.49892210960388184,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.7686765,
+    "duration": 0.6258516311645508,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.878492,
+    "duration": 0.5347216129302979,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.9061728,
+    "duration": 0.575852632522583,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995940.8349812,
+    "duration": 0.6490397453308105,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.0490615,
+    "duration": 0.5421285629272461,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.1018243,
+    "duration": 0.5070016384124756,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.1705132,
+    "duration": 0.5865588188171387,
+    "status": "success",
+    "user_id": 8,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.3362005,
+    "duration": 0.4345405101776123,
+    "status": "success",
+    "user_id": 12,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.2806096,
+    "duration": 0.508173942565918,
+    "status": "success",
+    "user_id": 19,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.406286,
+    "duration": 0.4681069850921631,
+    "status": "success",
+    "user_id": 11,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.4727125,
+    "duration": 0.5109689235687256,
+    "status": "success",
+    "user_id": 16,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.717276,
+    "duration": 0.5088663101196289,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.6736548,
+    "duration": 0.5974161624908447,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.7498064,
+    "duration": 0.5224368572235107,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.6978643,
+    "duration": 0.6495225429534912,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.8750682,
+    "duration": 0.5304734706878662,
+    "status": "success",
+    "user_id": 21,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.7726712,
+    "duration": 0.6528968811035156,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.0314658,
+    "duration": 0.4706714153289795,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.0825975,
+    "duration": 0.47490763664245605,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.0862331,
+    "duration": 0.5738828182220459,
+    "status": "success",
+    "user_id": 18,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.184237,
+    "duration": 0.5657126903533936,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.1870964,
+    "duration": 0.5661523342132568,
+    "status": "success",
+    "user_id": 15,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.1940317,
+    "duration": 0.6133654117584229,
+    "status": "success",
+    "user_id": 14,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.225133,
+    "duration": 0.5986499786376953,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.3708768,
+    "duration": 0.47864603996276855,
+    "status": "success",
+    "user_id": 26,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.264742,
+    "duration": 0.5884206295013428,
+    "status": "success",
+    "user_id": 23,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.3472402,
+    "duration": 0.5385792255401611,
+    "status": "success",
+    "user_id": 17,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.3947167,
+    "duration": 0.5699872970581055,
+    "status": "success",
+    "user_id": 22,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.3770409,
+    "duration": 0.5927555561065674,
+    "status": "success",
+    "user_id": 24,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.3759043,
+    "duration": 0.6065964698791504,
+    "status": "success",
+    "user_id": 28,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.4134414,
+    "duration": 0.6215198040008545,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.4842238,
+    "duration": 0.6151225566864014,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.482236,
+    "duration": 0.6332588195800781,
+    "status": "success",
+    "user_id": 27,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.591411,
+    "duration": 0.5406985282897949,
+    "status": "success",
+    "user_id": 25,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995942.6090603,
+    "duration": 0.5853040218353271,
+    "status": "success",
+    "user_id": 20,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.226337,
+    "duration": 0.4775974750518799,
+    "status": "success",
+    "user_id": 29,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.2712657,
+    "duration": 0.46630334854125977,
+    "status": "success",
+    "user_id": 31,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.2724488,
+    "duration": 0.49011731147766113,
+    "status": "success",
+    "user_id": 38,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.3476093,
+    "duration": 0.5611617565155029,
+    "status": "success",
+    "user_id": 33,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.4257736,
+    "duration": 0.5633013248443604,
+    "status": "success",
+    "user_id": 36,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.5024347,
+    "duration": 0.5257818698883057,
+    "status": "success",
+    "user_id": 30,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.5577197,
+    "duration": 0.5801410675048828,
+    "status": "success",
+    "user_id": 39,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.7501602,
+    "duration": 0.5038297176361084,
+    "status": "success",
+    "user_id": 32,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995943.823987,
+    "duration": 0.4917869567871094,
+    "status": "success",
+    "user_id": 34,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995944.035175,
+    "duration": 0.524608850479126,
+    "status": "success",
+    "user_id": 37,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995944.0995677,
+    "duration": 0.5003681182861328,
+    "status": "success",
+    "user_id": 35,
+    "error": ""
+  },
+  {
+    "timestamp": 1767995941.4834838,
+    "duration": 19.351211071014404,
+    "status": "error",
+    "user_id": 7,
+    "error": "<urlopen error [Errno 110] Connection timed out>"
+  },
+  {
+    "timestamp": 1767995941.608209,
+    "duration": 19.48264980316162,
+    "status": "error",
+    "user_id": 10,
+    "error": "<urlopen error [Errno 110] Connection timed out>"
+  }
+]
