@@ -27,3 +27,9 @@ tolerations:
 - key: "nvidia.com/gpu"
   operator: "Exists"
   effect: "NoSchedule"
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80

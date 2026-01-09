@@ -65,3 +65,7 @@ kubectl port-forward svc/ai-inference 8000:8000 &
 streamlit run frontend/app.py
 ```
 Then open **http://localhost:8501**
+
+## 📚 Documentation
+*   [Scaling & Performance Guide](docs/SCALING.md) - Load testing, DWS, and Autoscaling details.
+*   [FedRAMP Migration Plan](docs/FedRAMP_Migration_Plan.md) - Security and compliance strategy.

@@ -62,7 +62,11 @@ resource "google_container_node_pool" "gpu_node_pool" {
   
   autoscaling {
     min_node_count = 1
-    max_node_count = 5
+    max_node_count = 10
+  }
+
+  queued_provisioning {
+    enabled = true
   }
   
   # We use explicit zones to ensure capacity

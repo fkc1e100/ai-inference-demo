@@ -1,0 +1,39 @@
+apiVersion: autoscaling.x-k8s.io/v1beta1
+kind: ProvisioningRequest
+metadata:
+  name: reserve-gpu-capacity
+  namespace: default
+spec:
+  provisioningClassName: queued-provisioning.gke.io
+  parameters:
+    nodelocation: us-east1-b 
+  podSets:
+  - count: 10
+    podTemplateRef:
+      name: gpu-reservation-template
+---
+apiVersion: v1
+kind: PodTemplate
+metadata:
+  name: gpu-reservation-template
+  namespace: default
+template:
+  spec:
+    nodeSelector:
+      cloud.google.com/gke-accelerator: nvidia-l4
+    tolerations:
+    - key: "nvidia.com/gpu"
+      operator: "Exists"
+      effect: "NoSchedule"
+    - key: "cloud.google.com/gke-queued"
+      operator: "Equal"
+      value: "true"
+      effect: "NoSchedule"
+    containers:
+    - name: reservation-holder
+      image: gcr.io/google_containers/pause:3.2
+      resources:
+        limits:
+          nvidia.com/gpu: 1
+        requests:
+          nvidia.com/gpu: 1
