@@ -39,10 +39,10 @@ python3 load_test.py --users 50 --duration 60 --url http://<LB_IP>:8000/api/gene
 ### Verified Results (50 Users @ 10 Replicas)
 | Metric | Result | Notes |
 | :--- | :--- | :--- |
-| **Stability** | **100%** | Zero crashes/restarts over 10m+ |
-| **Latency** | **~9.7s** | High latency due to default parallelism (Queue Depth: 5) |
+| **Stability** | **100%** | Zero crashes/restarts |
+| **Latency** | **~2.7s** | Improved 4x via `OLLAMA_NUM_PARALLEL=8` |
 | **Capacity** | **10 Replicas** | Fully utilized |
 
-> **Performance Note:** The observed ~9.7s latency with 50 concurrent users indicates that requests are queuing (approx 5 requests per node). To achieve sub-second latency at this concurrency, we must increase `OLLAMA_NUM_PARALLEL` (currently default) or scale beyond 10 nodes. Stability, however, is now perfect.
+> **Performance Note:** Increasing parallelism to 8 drastically reduced queuing delay. Further tuning (e.g., Parallel=16) or vLLM migration is recommended for 1000-user scale.
 
 > **Note:** Testing via `kubectl port-forward` is strictly limited to low concurrency (<10 users) due to local tunnel bandwidth limits. Production traffic MUST use the Load Balancer.

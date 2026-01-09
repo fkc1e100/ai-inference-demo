@@ -20,6 +20,7 @@ env:
   OLLAMA_HOST: "0.0.0.0:8000"
   OLLAMA_KEEP_ALIVE: "-1"
   OLLAMA_MAX_LOADED_MODELS: "1"
+  OLLAMA_NUM_PARALLEL: "8"
 
 nodeSelector:
   cloud.google.com/gke-accelerator: nvidia-l4
