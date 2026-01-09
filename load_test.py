@@ -90,6 +90,12 @@ def run_sustained_test(num_users, duration, url, model):
         t.join()
         
     print(f"\nTest Complete. Total Requests: {len(results)}")
+    if results:
+        print(f"Stats:")
+        print(f"  Average: {statistics.mean(results):.4f}s")
+        print(f"  Median:  {statistics.median(results):.4f}s")
+        print(f"  Min:     {min(results):.4f}s")
+        print(f"  Max:     {max(results):.4f}s")
     
     # Save simple report
     with open('sustained_test_report.json', 'w') as f:

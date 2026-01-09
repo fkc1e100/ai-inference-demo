@@ -7,12 +7,13 @@ image:
 resources:
   limits:
     nvidia.com/gpu: 1
+    memory: "40Gi"
   requests:
     cpu: "8" 
-    memory: "16Gi"
+    memory: "40Gi"
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8000
 
 env:
@@ -27,9 +28,14 @@ tolerations:
 - key: "nvidia.com/gpu"
   operator: "Exists"
   effect: "NoSchedule"
+- key: "cloud.google.com/gke-queued"
+  operator: "Equal"
+  value: "true"
+  effect: "NoSchedule"
 
 autoscaling:
   enabled: true
-  minReplicas: 1
+  minReplicas: 10
   maxReplicas: 10
-  targetCPUUtilizationPercentage: 80
+  # Aggressive scaling: Trigger scale-up at 40% CPU
+  targetCPUUtilizationPercentage: 40

@@ -57,11 +57,10 @@ resource "google_container_node_pool" "gpu_node_pool" {
   name       = "l4-gpu-node-pool"
   location   = "us-east1"
   cluster    = google_container_cluster.ai_inference.name
-  # node_count = 1 (Removed for Autoscaling)
-  initial_node_count = 1
+  initial_node_count = 0
   
   autoscaling {
-    min_node_count = 1
+    min_node_count = 0
     max_node_count = 10
   }
 
@@ -80,6 +79,10 @@ resource "google_container_node_pool" "gpu_node_pool" {
       key    = "nvidia.com/gpu"
       value  = "present"
       effect = "NO_SCHEDULE"
+    }
+    
+    reservation_affinity {
+      consume_reservation_type = "NO_RESERVATION"
     }
     
     guest_accelerator {

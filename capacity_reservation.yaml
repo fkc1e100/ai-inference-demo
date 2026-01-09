@@ -5,8 +5,7 @@ metadata:
   namespace: default
 spec:
   provisioningClassName: queued-provisioning.gke.io
-  parameters:
-    nodelocation: us-east1-b 
+  # No 'nodelocation' parameter means GKE searches ALL zones in the node pool!
   podSets:
   - count: 10
     podTemplateRef:

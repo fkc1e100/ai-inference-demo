@@ -20,7 +20,7 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         resources:
           limits:
-            nvidia.com/gpu: {{ .Values.resources.limits. "nvidia.com/gpu" }}
+            nvidia.com/gpu: {{ index .Values.resources.limits "nvidia.com/gpu" }}
           requests:
             cpu: {{ .Values.resources.requests.cpu }}
             memory: {{ .Values.resources.requests.memory }}
