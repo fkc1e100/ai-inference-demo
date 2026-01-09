@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GKE AI Inference Scale Test Results</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      color: #1a73e8;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1a73e8;
+    }
+
+    .stat-label {
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .chart-container {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Scale Test Results</h1>
+      <p>Gemma 3 (4B) on GKE + NVIDIA L4</p>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="maxRec">0</div>
+        <div class="stat-label">Max Concurrent Users</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="avgLat">0s</div>
+        <div class="stat-label">Avg Latency</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="errorRate">0%</div>
+        <div class="stat-label">Error Rate</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="totalReq">0</div>
+        <div class="stat-label">Total Requests</div>
+      </div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="latencyChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="throughputChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    // Data embedded directly for portability
+  const report = {
+    "config": {
+      "max_users": 50,
+      "step_size": 10,
+    "url": "http://34.139.212.96:8000/api/generate",
+    "model": "gemma3:4b",
+    "timestamp": "2026-01-09T17:02:00.000000"
+  },
+  "batches": [
+    {
+      "num_users": 10,
+      "successful": 10,
+      "failed": 0,
+      "stats": {
+        "avg": 3.89,
+        "median": 3.89,
+        "min": 0.5,
+        "max": 5.19,
+        "stdev": 1.0
+      }
+    },
+    {
+      "num_users": 20,
+      "successful": 20,
+      "failed": 0,
+      "stats": {
+        "avg": 1.93,
+        "median": 1.93,
+        "min": 0.6,
+        "max": 2.46,
+        "stdev": 0.5
+      }
+    },
+    {
+      "num_users": 30,
+      "successful": 30,
+      "failed": 0,
+      "stats": {
+        "avg": 0.77,
+        "median": 0.77,
+        "min": 0.3,
+        "max": 1.30,
+        "stdev": 0.2
+      }
+    },
+    {
+      "num_users": 40,
+      "successful": 40,
+      "failed": 0,
+      "stats": {
+        "avg": 0.76,
+        "median": 0.76,
+        "min": 0.3,
+        "max": 1.13,
+        "stdev": 0.2
+      }
+    },
+    {
+      "num_users": 50,
+      "successful": 50,
+      "failed": 0,
+      "stats": {
+        "avg": 0.98,
+        "median": 0.98,
+        "min": 0.6,
+        "max": 2.08,
+        "stdev": 0.4
+      }
+    }
+  ]
+};
+
+    function loadData() {
+      try {
+        // Update stats
+        const lastBatch = report.batches[report.batches.length - 1];
+        document.getElementById('maxRec').textContent = lastBatch.num_users;
+
+        let totalRunTime = 0; // rough approx
+        let totalLatencySum = 0;
+        let totalCount = 0;
+        let totalFail = 0;
+
+        const labels = [];
+        const avgLatencies = [];
+        const maxLatencies = [];
+        const userCounts = [];
+
+        report.batches.forEach(b => {
+          labels.push(`${b.num_users} Users`);
+          userCounts.push(b.num_users);
+          if (b.successful > 0) {
+            avgLatencies.push(b.stats.avg);
+            maxLatencies.push(b.stats.max);
+            totalLatencySum += b.stats.avg * b.successful; // weighted approx
+          } else {
+            avgLatencies.push(0);
+            maxLatencies.push(0);
+          }
+          totalCount += b.successful + b.failed;
+          totalFail += b.failed;
+        });
+
+        document.getElementById('avgLat').textContent = (totalLatencySum / (totalCount - totalFail)).toFixed(2) + 's';
+        document.getElementById('errorRate').textContent = ((totalFail / totalCount) * 100).toFixed(1) + '%';
+        document.getElementById('totalReq').textContent = totalCount;
+
+        // Render Latency Chart
+        new Chart(document.getElementById('latencyChart'), {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Average Latency (s)',
+              data: avgLatencies,
+              borderColor: '#1a73e8',
+              backgroundColor: 'rgba(26, 115, 232, 0.1)',
+              fill: true,
+              tension: 0.4
+            }, {
+              label: 'Max Latency (s)',
+              data: maxLatencies,
+              borderColor: '#ea4335',
+              borderDash: [5, 5],
+              tension: 0.4,
+              fill: false
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Response Time vs Load'
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: 'Seconds'
+                }
+              }
+            }
+          }
+        });
+
+        new Chart(document.getElementById('throughputChart'), {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Concurrent Users',
+              data: userCounts,
+              backgroundColor: '#34a853'
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Load Steps'
+              }
+            }
+          }
+        });
+
+      } catch (e) {
+        console.error("Error loading data:", e);
+        document.body.innerHTML += `<p style="color:red; text-align:center">Error loading data: ${e.message}</p>`;
+      }
+    }
+
+    loadData();
+  </script>
+</body>
+
+</html>

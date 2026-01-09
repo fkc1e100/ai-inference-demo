@@ -40,3 +40,5 @@ metadata:
 data:
   app.py: |
 {{ .Files.Get "frontend/app.py" | indent 4 }}
+  results.html: |
+{{ .Files.Get "static/results.html" | indent 4 }}
