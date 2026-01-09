@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: python:3.9-slim
+        command: ["/bin/sh", "-c"]
+        # We install dependencies at runtime (simpler for demo than building custom image)
+        args:
+        - |
+          pip install streamlit requests && \
+          streamlit run /app/app.py --server.port=8501 --server.address=0.0.0.0
+        ports:
+        - containerPort: 8501
+        volumeMounts:
+        - name: app-source
+          mountPath: /app
+      volumes:
+      - name: app-source
+        configMap:
+          name: frontend-code
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-code
+data:
+  app.py: |
+{{ .Files.Get "frontend/app.py" | indent 4 }}
