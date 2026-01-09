@@ -1,15 +1,17 @@
 # AI Inference Platform (Demo)
 
-This repository contains the Infrastructure-as-Code (Terraform) and Application Deployment (Helm) for the AI Inference Platform.
+This repository contains the Infrastructure-as-Code (Terraform), Application Deployment (Helm), and Frontend UI for the AI Inference Platform.
 
 ## Architecture
 
 ```mermaid
 graph TD
-    User[User / Application] -->|HTTP Request| LB[Load Balancer / Service]
+    User[User] -->|Browser/HTTP| FE[Frontend UI (Streamlit)]
     
     subgraph "GKE Cluster (ai-inference-demo-v1)"
-        LB --> Pod[AI Inference Pod]
+        FE -->|Internal API Call| Svc[AI Service (Load Balancer)]
+        
+        Svc --> Pod[AI Inference Pod]
         
         subgraph "GPU Node Pool (Autoscaling 1-5)"
             Pod -->|Runs On| GPU[NVIDIA L4 GPU]
@@ -33,6 +35,7 @@ graph TD
 *   Google Cloud Project (Authenticated)
 *   Terraform installed
 *   Helm installed
+*   Python 3 (for client script)
 
 ### 1. Build Infrastructure
 ```bash
@@ -50,12 +53,11 @@ gcloud container clusters get-credentials ai-inference-demo-v1 --region us-east1
 helm install ai-inference ./helm/ai-inference
 ```
 
-### 3. Test
+### 3. Run Frontend (Web UI)
+You can run the frontend locally or deploy it to the cluster.
 ```bash
-# Verify Pods
-kubectl get pods
-
-# Test Endpoint (Internal)
-kubectl run curl-test --image=curlimages/curl --restart=Never --command -- sleep infinity
-kubectl exec curl-test -- curl http://ai-inference:8000/
+# Run locally (Requires connection to cluster)
+kubectl port-forward svc/ai-inference 8000:8000 &
+streamlit run frontend/app.py
 ```
+Then open **http://localhost:8501**
