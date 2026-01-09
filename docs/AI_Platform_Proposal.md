@@ -44,14 +44,24 @@ We adhere to the "Secure by Design" principles:
     *   The model runs entirely within your VPC.
     *   User data sent to the model **never leaves your defined boundary** and is **not used for training** public models.
 
-## 4. Operational Cost Estimation (Draft)
+## 4. Compliance (PCI & PII)
+
+To support regulated workloads (PCI-DSS, HIPAA, PII), the production environment will implement:
+
+1.  **Private Control Plane**: The current `0.0.0.0/0` master access will be replaced with a strict allowlist (Corporate VPN only) or a Private Endpoint to eliminate public exposure.
+2.  **Container Security**: Enable **GKE Image Streaming** and **Container Security API** to automatically scan all model containers for CVEs before they start.
+3.  **Audit Logging**: Enable strict GKE Audit Logging to capture every interaction with the inference API (who queried what model and when).
+4.  **Data Residency**: All resources are pinned to `us-east1` to ensure data never leaves the US jurisdiction.
+5.  **Encryption**: Enable **database encryption** (if accumulating logs) and ensure all internal traffic is mutually authenticated (mTLS) via Google Service Mesh in the future phase.
+
+## 5. Operational Cost Estimation (Draft)
 
 | Component | SKU | Estimated Cost (Hourly) | Notes |
 | :--- | :--- | :--- | :--- |
 | **Idle** (1 GPU) | 1x L4 GPU + 1x System Node | ~$0.85/hr | Minimum monthly run rate. |
 | **Peak** (5 GPUs) | 5x L4 GPU + 1x System Node | ~$3.50/hr | Cost only during active scaling events. |
 
-## 5. Next Steps for Production
+## 6. Next Steps for Production
 
 1.  **Ingress Controller**: Setup an HTTPS Load Balancer with IAP (Identity Aware Proxy) to allow secure access for the App Team.
 2.  **Observability**: Enable Google Cloud Managed Prometheus to track "Tokens Per Second" (TPS) and Latency.
