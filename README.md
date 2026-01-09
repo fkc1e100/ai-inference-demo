@@ -6,16 +6,16 @@ This repository contains the Infrastructure-as-Code (Terraform), Application Dep
 
 ```mermaid
 graph TD
-    User[User] -->|Browser/HTTP| FE[Frontend UI (Streamlit)]
+    User[User] -->|Browser/HTTP| FE["Frontend UI (Streamlit)"]
     
     subgraph "GKE Cluster (ai-inference-demo-v1)"
-        FE -->|Internal API Call| Svc[AI Service (Load Balancer)]
+        FE -->|Internal API Call| Svc["AI Service (Load Balancer)"]
         
-        Svc --> Pod[AI Inference Pod]
+        Svc --> Pod["AI Inference Pod"]
         
         subgraph "GPU Node Pool (Autoscaling 1-5)"
-            Pod -->|Runs On| GPU[NVIDIA L4 GPU]
-            Pod -->|Loads| Model[Gemma 3 Model]
+            Pod -->|Runs On| GPU["NVIDIA L4 GPU"]
+            Pod -->|Loads| Model["Gemma 3 Model"]
         end
         
         subgraph "System Node Pool"
@@ -25,7 +25,7 @@ graph TD
     end
     
     Pod -.->|Auth| WI[Workload Identity]
-    WI -.->|IAM| GCR[Artifact Registry]
+    WI -.->|IAM| GCR["Artifact Registry"]
     GCR -->|Pulls Image| Pod
 ```
 
