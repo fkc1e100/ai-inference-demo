@@ -16,6 +16,7 @@ We utilize a "Google Cloud Native" stack to ensure reliability and security.
 ### Application Deployment (Helm)
 *   **Model**: Google Gemma 3 4B (Instruction Tuned).
 *   **Serving Engine**: Ollama (Optimized for low-latency inference).
+*   **User Interface**: Streamlit Web Application (Chat Interface) for demonstration and interaction.
 *   **Distribution**: Packaged as a standard Helm Chart (`ai-inference/`) for easy versioning and rollback.
 
 ## 2. Scalability Strategy (1000+ Users)
